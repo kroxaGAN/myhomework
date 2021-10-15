@@ -1,0 +1,31 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.styleAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Радиус скругления */
+}
+.content {
+    padding: 10px;
+    background-color: rgba(255,255,255,0.3);
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    /*background-color: cornsilk;*/
+}
+.message{
+    font-size: 20px;
+    /*background-color: cornsilk;*/
+}
+.time{
+    font-size: 20px;
+    /*background-color: cornsilk;*/
+    display: flex;
+justify-content: flex-end;
+}
